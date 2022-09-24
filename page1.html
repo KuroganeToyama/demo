@@ -5,6 +5,7 @@
         <title>Page 1</title>
     </head>
     <body> 
+        <script src = "page1.js"></script>
         <h1>PAGE 1</h1>
 
         <!--Search bar-->
@@ -14,6 +15,37 @@
             <a class = "active" href = "page1.html" target = "_blank">Page 1</a>
             <input type = "text" placeholder = "Search..">
         </div> 
+
+        <div class = "content">
+            Hello, hello. Welcome to Page 1. This is the page designed to teach
+            myself about JavaScript (JS) in HTML as well as some other random stuff.
+            Again, don't expect too much out of this.
+            Here we go!
+        </div>
+
+        <div class = "content">
+            Here, I'm trying to implement some very basic JS. 
+            Try clicking on the button below. It should change the existing text beside
+            to another text.
+        </div>
+
+        <button type = "button" onclick = "func1()">Click here</button>
+        <p id = "demo">The Text</p>
+
+        <div class = "content">
+            If you saw the text changed, then it worked. Hooray! <br>
+            Okay, I'll try something more complex. Try putting in a number.
+            Please be a number. I'm still not good enough for conditionals.
+        </div>
+
+        <button type = "button" id = "res" onclick = "func2()">Click here</button>
+        <input type = "number" id = "num">
+
+        <div class = "content">
+            Now click the button. If you see a number twice as large as
+            the input appears, that's great! It means I got some progress.
+        </div>
+
 
         <!--Footer-->
 		<footer>
