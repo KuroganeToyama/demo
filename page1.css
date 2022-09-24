@@ -1,1 +1,46 @@
 @import url(index.css);
+
+.content {
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+button {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+    background-color: #4CAF50;
+    border-style: groove;
+    padding: 15px 32px;
+
+    cursor: pointer;
+    float: left;
+}
+
+input {
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
